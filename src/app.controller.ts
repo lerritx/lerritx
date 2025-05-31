@@ -14,5 +14,12 @@ export class AppController {
   @Get('/it3')
   getit2(): string {
     return 'it works3';
+  @Get()
+  getHello(): any {
+    return 
+    {
+      name: 'lerritx',
+      id: 155444, 
+    };
   }
 }
