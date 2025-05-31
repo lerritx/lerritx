@@ -9,4 +9,13 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get()
+  getHello(): any {
+    return 
+    {
+      name: 'lerritx',
+      id: 155444, 
+    };
+  }
 }
